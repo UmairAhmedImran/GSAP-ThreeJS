@@ -8,11 +8,10 @@
     "allowJs": true,
     "module": "es6",
     "target": "es6",
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
     "rootDir": "src",
     "moduleResolution": "node"
-  }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"], // Include only source files
+  "exclude": ["node_modules", "vite.config.ts"] // Exclude unnecessary files
 }
